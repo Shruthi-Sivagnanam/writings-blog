@@ -23,10 +23,7 @@ app.use(passport.session());
 const PORT = process.env.PORT || 5000;
 db();
 
-app.get("/", (req, res) => {
-  res.send("Hello");
-});
-
+app.listen(PORT);
 app.use("/user", router_user);
 app.use("/blog", route_blog);
 
@@ -36,4 +33,3 @@ if (process.env.NODE_ENV === "production") {
     res.send(path.resolve(__dirname, "client", "build", "index.html"));
   });
 }
-app.listen(PORT);

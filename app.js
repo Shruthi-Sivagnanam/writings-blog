@@ -4,6 +4,7 @@ const router_user = require("./router/userroutes");
 const bodyParser = require("body-parser");
 const passport = require("passport");
 const route_blog = require("./router/blogroutes");
+const path = require("path");
 
 const app = express();
 

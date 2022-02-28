@@ -15,9 +15,12 @@ Preview the website: https://blogs-writings.herokuapp.com/
  - Javascript
 
 ## Frameworks and tools 
- - React.js
- - Node.js
+ - React.js (client-side)
+ - Node.js  (server-side)
  - Redux
+
+## Database
+ - Mongodb
 
 ## How to run the app
 

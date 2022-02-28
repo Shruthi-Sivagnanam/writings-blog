@@ -92,7 +92,7 @@ const Editblog = () => {
       )}
       <Modal show={show} onHide={handleClose}>
         <Modal.Header closeButton>
-          <Modal.Title>Delete blog</Modal.Title>
+          <Modal.Title>Edit blog</Modal.Title>
         </Modal.Header>
         <Modal.Body>Are you sure do you want to edit the blog?</Modal.Body>
         <Modal.Footer>

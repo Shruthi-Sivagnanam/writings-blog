@@ -18,6 +18,9 @@ const AccountPages = () => {
     if (userInfo) {
       setUsername(userInfo.username);
     }
+    else{
+      navigate("/");
+    }
   }, [userInfo, navigate]);
   const dispatch = useDispatch();
   const submitHandler = (e) => {

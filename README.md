@@ -2,7 +2,7 @@
 
 ## About
 
-<p>It is mern app where you can read, write, update and delete blog.For writing blogs, you have to register(email,username,passsword) and get logged in.This website is deployed in heroku and active now.</p>
+<p>It is a mern app where you can read, write, update and delete blog.For writing blogs, you have to register(email,username,passsword) and get logged in.This website is deployed in heroku and active now.</p>
 <p>
 Preview the website: https://blogs-writings.herokuapp.com/
 </p>
